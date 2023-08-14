@@ -1,0 +1,355 @@
+header {
+    background-image: url(/images/images/bg.jpg);
+    background-size:cover ;
+    height:800px;
+    margin-bottom: 70px;
+}
+#logo {
+    height: 80px;
+    width: 140px;
+    margin: 10px 15px;
+}
+header h1 {
+    color: white;
+    font-size: 100px;
+    line-height: 0.9;
+    font-family: abril;
+    margin-left: 120px;
+    margin-top: 120px;
+    font-weight: bold;
+}
+nav li {
+    display: inline;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+    font-size: 13px;
+    font-family: montserrat;
+    font-weight: bold;
+    letter-spacing: 1px;
+    position: relative;
+    left:150px;
+    bottom: 80px;
+    }
+.services {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 150px;
+}
+.icones img {
+    margin: 0 160px;
+}
+.boutique {
+    height: 65px;
+    width: 65px;
+}
+.aide {
+    height: 65px;
+    width: 65px;
+}
+.camion {
+    height: 70px;
+    width: 70px;
+}
+.icones h3 {
+    text-align: center;
+    font-size: 20px;
+    font-family: montserrat;
+}
+h1 {
+    font-family: abril;
+    font-size: 80px;
+    font-weight: bold;
+    margin-left: 105px;
+    }
+    .trait {
+        height:10px;
+        background-color: #ADD981;
+        width: 4%;
+        position: relative;
+        bottom: 55px;  
+        left: 105px; }
+.ventes {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 105px;
+}
+
+.best img {
+    height: 500px;
+    width: 322px;
+}
+.best h3, h4 {
+    font-family: montserrat;
+    margin-left: 15px;
+    line-height: 0.1;
+    position: relative;
+    top: 30px;
+}
+.best h4 {
+    color: #ADD981;
+}
+.best button {
+    float: right;
+    align-items: center;
+    margin-right: 15px;
+    font-family: montserrat;
+    position: relative;
+    bottom: 17px;
+    background-color: #ADD981;
+    color: white;
+    border-radius: 40px;
+    height: 35px;
+    width: 120px;
+    border-color: #ADD981;
+}
+.infos {
+    background-color: #FFFFFFDF;
+    height: 90px;
+    position: relative;
+    bottom: 110px;
+}
+.plante {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    column-gap: 330px;
+    margin-left: 105px;
+    margin-right: 105px; 
+}
+.buy_plante1 img {
+    height: 832px;
+    width: 600px;
+}
+.buy_plante2 img {
+    height: 400px;
+    width: 650px;
+}
+.buy_plante3 img {
+    height: 400px;
+    width: 650px;
+    position: relative;
+    bottom: 80px;
+}
+.infos2 {
+    background-color: #FFFFFFDF;
+    height: 87px;
+    width: 600px;
+    position: relative;
+    bottom: 110px;
+}
+.infos3 {
+    background-color: #FFFFFFDF;
+    height: 87px;
+    width: 650px;
+    position: relative;
+    bottom: 110px;
+}
+.infos4 {
+    background-color: #FFFFFFDF;
+    height: 87px;
+    width: 650px;
+    position: relative;
+    bottom: 188px;
+}
+.infos2 h4 {
+    color: #ADD981;
+}
+.infos3 h4 {
+    color: #ADD981;
+}
+.infos4 h4 {
+    color: #ADD981;
+}
+.infos2 h3, h4 {
+    font-family: montserrat;
+    margin-left: 35px;
+    line-height: 0.1;
+    position: relative;
+    top: 30px;
+}
+.infos2 button {
+    float: right;
+    align-items: center;
+    margin-right: 15px;
+    font-family: montserrat;
+    position: relative;
+    bottom: 20px;
+    background-color: #ADD981;
+    color: white;
+    border-radius: 40px;
+    height: 35px;
+    width: 120px;
+    border-color: #ADD981;
+}
+.infos3 h3, h4 {
+    font-family: montserrat;
+    margin-left: 35px;
+    line-height: 0.1;
+    position: relative;
+    top: 30px;
+}
+.infos3 button {
+    float: right;
+    align-items: center;
+    margin-right: 15px;
+    font-family: montserrat;
+    position: relative;
+    bottom: 20px;
+    background-color: #ADD981;
+    color: white;
+    border-radius: 40px;
+    height: 35px;
+    width: 120px;
+    border-color: #ADD981;
+}
+.infos4 h3, h4 {
+    font-family: montserrat;
+    margin-left: 35px;
+    line-height: 0.1;
+    position: relative;
+    top: 30px;
+}
+.infos4 button {
+    float: right;
+    align-items: center;
+    margin-right: 15px;
+    font-family: montserrat;
+    position: relative;
+    bottom: 20px;
+    background-color: #ADD981;
+    color: white;
+    border-radius: 40px;
+    height: 35px;
+    width: 120px;
+    border-color: #ADD981;
+}
+.plante2 {
+    display: grid;
+    width: 800px;
+    column-gap: 160px;
+    grid-template-columns: 200px 400px 200px;
+    margin-left: 105px;
+    margin-right: 105px; 
+    position: relative;
+    bottom: 165px;
+}
+.buy_plante4 img {
+    height: 700px;
+    width: 342px;
+}
+.buy_plante5 img {
+    height: 700px;
+    width: 539px;
+}
+.buy_plante6 img {
+    height: 700px;
+    width: 359px;
+}
+.infos5 {
+    background-color: #FFFFFFDF;
+    height: 87px;
+    width: 350px;
+    position: relative;
+    bottom: 110px;
+}
+.infos6 {
+    background-color: #FFFFFFDF;
+    height: 87px;
+    width: 550px;
+    position: relative;
+    bottom: 110px;
+}
+.infos7 {
+    background-color: #FFFFFFDF;
+    height: 87px;
+    width: 360px;
+    position: relative;
+    bottom: 110px;
+}
+.infos5 button {
+    float: right;
+    align-items: center;
+    margin-right: 15px;
+    font-family: montserrat;
+    position: relative;
+    bottom: 18px;
+    background-color: #ADD981;
+    color: white;
+    border-radius: 40px;
+    height: 35px;
+    width: 120px;
+    border-color: #ADD981;
+}
+.infos6 button {
+    float: right;
+    align-items: center;
+    margin-right: 15px;
+    font-family: montserrat;
+    position: relative;
+    bottom: 18px;
+    background-color: #ADD981;
+    color: white;
+    border-radius: 40px;
+    height: 35px;
+    width: 120px;
+    border-color: #ADD981;
+}
+.infos7 button {
+    float: right;
+    align-items: center;
+    margin-right: 15px;
+    font-family: montserrat;
+    position: relative;
+    bottom: 18px;
+    background-color: #ADD981;
+    color: white;
+    border-radius: 40px;
+    height: 35px;
+    width: 120px;
+    border-color: #ADD981;
+}
+.infos5 h3, h4 {
+    font-family: montserrat;
+    margin-left: 35px;
+    line-height: 0.1;
+    position: relative;
+    top: 30px;
+}
+.infos6 h3, h4 {
+    font-family: montserrat;
+    margin-left: 35px;
+    line-height: 0.1;
+    position: relative;
+    top: 30px;
+}
+.infos7 h3, h4 {
+    font-family: montserrat;
+    margin-left: 35px;
+    line-height: 0.1;
+    position: relative;
+    top: 30px;
+}
+.infos5 h4 {
+    color: #ADD981;
+}
+.infos6 h4 {
+    color: #ADD981;
+}
+.infos7 h4 {
+    color: #ADD981;
+}
+footer h5 {
+    display: inline;
+}
+footer #frst {
+    margin-left: 105px;
+}
+footer #last {
+position: relative;
+left:995px;}
+footer h5 {
+position: relative;
+bottom: 40px;
+}
